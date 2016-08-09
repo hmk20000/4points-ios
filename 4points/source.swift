@@ -150,8 +150,6 @@ class PagingNavController: UIViewController, UIScrollViewDelegate {
             navTitleLabel2.alpha = 1 - (xOffset - wBounds) / wBounds
         }
         navTitleLabel3.alpha = (xOffset - wBounds) / wBounds
-        
-        
     }
     
     
@@ -168,9 +166,5 @@ class PagingNavController: UIViewController, UIScrollViewDelegate {
         } else {
             pageControl.currentPage = 2
         }
-        
     }
-    
-    
-    
 }
