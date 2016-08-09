@@ -485,8 +485,8 @@
                             <mask key="constraints">
                                 <exclude reference="1WC-aK-hAP"/>
                                 <exclude reference="bdE-ay-fdr"/>
-                                <exclude reference="oUW-e5-T3o"/>
                                 <exclude reference="if2-9y-y1V"/>
+                                <exclude reference="oUW-e5-T3o"/>
                             </mask>
                         </variation>
                     </view>
@@ -790,9 +790,9 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="c4c-7z-TFd"/>
+                                <exclude reference="Ck7-5i-qdJ"/>
                                 <exclude reference="hln-fP-q5n"/>
                                 <exclude reference="t1i-r4-XDh"/>
-                                <exclude reference="Ck7-5i-qdJ"/>
                             </mask>
                         </variation>
                     </view>
