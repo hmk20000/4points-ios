@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC34F6101D59CD92009A321F /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34F60F1D59CD92009A321F /* TutorialViewController.swift */; };
 		EC37D7411D585179006799B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37D7401D585179006799B6 /* AppDelegate.swift */; };
 		EC37D7431D585179006799B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37D7421D585179006799B6 /* ViewController.swift */; };
 		EC37D7461D585179006799B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC37D7441D585179006799B6 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC34F60F1D59CD92009A321F /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		EC37D73D1D585179006799B6 /* 4points.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4points.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC37D7401D585179006799B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC37D7421D585179006799B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				EC37D7401D585179006799B6 /* AppDelegate.swift */,
 				EC37D7421D585179006799B6 /* ViewController.swift */,
 				EC37D7441D585179006799B6 /* Main.storyboard */,
+				EC34F60F1D59CD92009A321F /* TutorialViewController.swift */,
 				EC3EABBF1D59AC980010799A /* TutorialPageViewController.swift */,
 				EC37D74A1D585179006799B6 /* Assets.xcassets */,
 				EC37D74C1D585179006799B6 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				EC37D7431D585179006799B6 /* ViewController.swift in Sources */,
 				EC37D7491D585179006799B6 /* _points.xcdatamodeld in Sources */,
+				EC34F6101D59CD92009A321F /* TutorialViewController.swift in Sources */,
 				EC3EABC01D59AC980010799A /* TutorialPageViewController.swift in Sources */,
 				EC37D7411D585179006799B6 /* AppDelegate.swift in Sources */,
 			);

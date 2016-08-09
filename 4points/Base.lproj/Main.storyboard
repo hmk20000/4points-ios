@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="oeF-fY-iyr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0PK-Mm-cj4">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -23,10 +23,52 @@
             </objects>
             <point key="canvasLocation" x="863" y="1257"/>
         </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="0Le-TD-FoK">
+            <objects>
+                <viewController id="0PK-Mm-cj4" customClass="TutorialViewController" customModule="_points" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yuA-1C-g31"/>
+                        <viewControllerLayoutGuide type="bottom" id="nZp-0h-QCR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7LQ-rH-fMl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fuc-LC-Pcs">
+                                <rect key="frame" x="0.0" y="20" width="600" height="561"/>
+                                <connections>
+                                    <segue destination="oeF-fY-iyr" kind="embed" id="baz-gS-CuU"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neG-dk-95w">
+                                <rect key="frame" x="274" y="471" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="didTapNextButton:" destination="0PK-Mm-cj4" eventType="touchUpInside" id="VoI-aK-U3d"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="hRc-Kq-UhL">
+                                <rect key="frame" x="278" y="514" width="39" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94428255523802251" green="0.35360260157628598" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="7LQ-rH-fMl" id="9AA-3m-0iu"/>
+                        <outlet property="pageControl" destination="hRc-Kq-UhL" id="xqc-TH-Km9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PbJ-Fe-O05" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1517" y="-127"/>
+        </scene>
         <!--Tutorial Page View Controller-->
         <scene sceneID="oem-eI-dO6">
             <objects>
-                <pageViewController storyboardIdentifier="PageViewControlloer" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="oeF-fY-iyr" customClass="TutorialPageViewController" customModule="_points" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="PageViewControlloer" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="oeF-fY-iyr" customClass="TutorialPageViewController" customModule="_points" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bzP-KR-tVw"/>
+                </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9zW-mE-fHq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1517" y="580"/>
