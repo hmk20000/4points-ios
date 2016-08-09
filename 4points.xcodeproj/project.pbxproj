@@ -15,6 +15,7 @@
 		EC37D74E1D585179006799B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC37D74C1D585179006799B6 /* LaunchScreen.storyboard */; };
 		EC37D7591D585179006799B6 /* _pointsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37D7581D585179006799B6 /* _pointsTests.swift */; };
 		EC37D7641D585179006799B6 /* _pointsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37D7631D585179006799B6 /* _pointsUITests.swift */; };
+		EC3EABC01D59AC980010799A /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EABBF1D59AC980010799A /* TutorialPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EC37D75F1D585179006799B6 /* 4pointsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4pointsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC37D7631D585179006799B6 /* _pointsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _pointsUITests.swift; sourceTree = "<group>"; };
 		EC37D7651D585179006799B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3EABBF1D59AC980010799A /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				EC37D7401D585179006799B6 /* AppDelegate.swift */,
 				EC37D7421D585179006799B6 /* ViewController.swift */,
 				EC37D7441D585179006799B6 /* Main.storyboard */,
+				EC3EABBF1D59AC980010799A /* TutorialPageViewController.swift */,
 				EC37D74A1D585179006799B6 /* Assets.xcassets */,
 				EC37D74C1D585179006799B6 /* LaunchScreen.storyboard */,
 				EC37D74F1D585179006799B6 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				EC37D7431D585179006799B6 /* ViewController.swift in Sources */,
 				EC37D7491D585179006799B6 /* _points.xcdatamodeld in Sources */,
+				EC3EABC01D59AC980010799A /* TutorialPageViewController.swift in Sources */,
 				EC37D7411D585179006799B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +490,7 @@
 				EC37D76A1D585179006799B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC37D76B1D585179006799B6 /* Build configuration list for PBXNativeTarget "4pointsTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				EC37D76D1D585179006799B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC37D76E1D585179006799B6 /* Build configuration list for PBXNativeTarget "4pointsUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				EC37D7701D585179006799B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
