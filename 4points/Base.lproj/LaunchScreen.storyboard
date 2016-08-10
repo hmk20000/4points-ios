@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="17I-dS-0dz">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="jHB-7u-eL7">
+            <objects>
+                <viewController id="17I-dS-0dz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kwl-eQ-nqg"/>
+                        <viewControllerLayoutGuide type="bottom" id="If9-PN-iY3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y8W-SJ-jEf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4POINTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wq-ge-YPh">
+                                <rect key="frame" x="186" y="240" width="227" height="60"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="53"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="1ZR-S2-l4Q">
+                                <rect key="frame" x="60" y="493" width="480" height="89"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrH-aZ-3os">
+                                        <rect key="frame" x="0.0" y="0.0" width="480" height="22"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="CCC ">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="한국대학생선교회">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="17" name="AppleSDGothicNeo-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="XW4-wN-ecp">
+                                        <rect key="frame" x="0.0" y="33" width="480" height="21"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="{" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNp-7d-L61">
+                                                <rect key="frame" x="0.0" y="0.0" width="56" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuL-MY-c32">
+                                                <rect key="frame" x="56" y="0.0" width="96" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wge-6M-scK">
+                                                <rect key="frame" x="152" y="0.0" width="88" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r54-SP-bup">
+                                                <rect key="frame" x="240" y="0.0" width="88" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zhg-qR-sLS">
+                                                <rect key="frame" x="328" y="0.0" width="96" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="}" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18W-IS-cDp">
+                                                <rect key="frame" x="424" y="0.0" width="56" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C  o  d  e   f  o  r   T  h  e   K  i  n  g  d  o  m" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uvq-b1-ygy">
+                                        <rect key="frame" x="0.0" y="65" width="480" height="24"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78039215689999997" green="0.043137254899999998" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="5wq-ge-YPh" firstAttribute="bottom" secondItem="Y8W-SJ-jEf" secondAttribute="centerY" id="2Bz-Ad-sYe"/>
+                            <constraint firstItem="1ZR-S2-l4Q" firstAttribute="centerX" secondItem="Y8W-SJ-jEf" secondAttribute="centerX" id="Iau-en-QAR"/>
+                            <constraint firstItem="5wq-ge-YPh" firstAttribute="centerX" secondItem="Y8W-SJ-jEf" secondAttribute="centerX" id="r11-Ar-6TW"/>
+                            <constraint firstItem="If9-PN-iY3" firstAttribute="top" secondItem="1ZR-S2-l4Q" secondAttribute="bottom" constant="20" id="r1X-UH-11J"/>
+                            <constraint firstItem="Uvq-b1-ygy" firstAttribute="width" secondItem="Y8W-SJ-jEf" secondAttribute="width" multiplier="0.8" id="wFa-1W-95j"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainText" destination="5wq-ge-YPh" id="GzZ-Rj-akl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Br-9W-k5S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-537" y="569"/>
+        </scene>
+    </scenes>
+</document>
