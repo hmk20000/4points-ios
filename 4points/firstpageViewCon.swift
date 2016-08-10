@@ -19,7 +19,7 @@ class firstpageViewCon: UIViewController{
         // Do any additional setup after loading the view, typically from a nib.
         egg.addTarget(self, action: #selector(buttonAction), forControlEvents: .TouchUpInside)
 
-        button.frame = view01.frame
+        button.frame = view01.frame // 이스터에그에 사용되는 버튼크기 설정, 이거 때문에 크기가 이상한거 같음. 확인수정요망
 
     }
     
